@@ -153,11 +153,7 @@
             </div>
             
             <div class="tracking-body">
-                <!-- Shipping Status Banner -->
-                <div class="shipping-status">
-                    <i class="fas fa-truck me-2"></i>
-                    <span>Package in transit</span> - Estimated delivery in 2-3 business days
-                </div>
+                
                 
                 <!-- Address Information -->
                 <div class="row address-row mb-4">
