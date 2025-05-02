@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Track Item | PoŝtaLoĝistiko</title>
+    <title>Dak Ghar Niryat Kendra</title>
 
     {{-- Meta Tags --}}
-    <meta name="title" content="Track Item | PoŝtaLoĝistiko">
+    <meta name="title" content="Dak Ghar Niryat Kendra">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="robots" content="index, follow">
@@ -40,25 +41,16 @@
     {{-- Livewire CSS --}}
     <livewire:styles />
 </head>
+
 <body>
     {{-- Navbar --}}
     <nav class="navbar navbar-light bg-light shadow-sm py-3">
         <div class="container px-md-5">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('img/logo.svg') }}" width="265">
+                <img src="{{ asset('img/dakghar.png') }}" width="150">
             </a>
 
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/jj15asmr/laravel-shipment-tracker-example">
-                        {{-- Small Devices --}}
-                        <span class="d-inline-block d-md-none"><i class="fa-brands fa-github"></i></span>
 
-                        {{-- Larger Devices --}}
-                        <span class="d-none d-md-inline-block"><i class="fa-brands fa-github"></i> View on GitHub</span>
-                    </a>
-                </li>
-            </ul>
         </div>
     </nav>
 
@@ -71,4 +63,5 @@
     {{-- Livewire JS --}}
     <livewire:scripts />
 </body>
+
 </html>
