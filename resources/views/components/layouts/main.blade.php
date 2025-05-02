@@ -761,14 +761,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Track</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
-                <a href="#" class="btn btn-primary">Login</a>
             </div>
         </div>
     </nav>
@@ -784,7 +777,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
             <div class="row">
                 <div class="col-lg-4 mb-4 mb-lg-0">
                     <a href="#" class="footer-logo">
-                        <img src="{{ asset('img/dakghar.png') }}" alt="Dak Ghar Niryat Kendra">
+                        <img src="{{ asset('img/dakghar.png') }}" width="150" alt="Dak Ghar Niryat Kendra">
                     </a>
                     <p class="footer-description">
                         Facilitating exports through the extensive network of India Post, making international shipping accessible to all.
